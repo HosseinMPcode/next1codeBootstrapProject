@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@font-face {
+    font-family: 'vazir';
+    src: url(../fonts/Vazir.ttf);
+}
+.lalezar{
+    font-family: "Lalezar", system-ui;
+    font-weight: 400;
+    font-style: normal;
+} 
+body{
+    font-family:'vazir', sans-serif;
+    font-size: 1rem;
+}
+@media screen and (min-width : 768px) {
+    .position-md-fixed{
+        position: fixed;
+    }
+}
+.course-list-container{
+    border: 1px solid lightgrey;
+    border-radius: 7px;
+    background:#fff;
+    padding:5px;
+}
+.course-list-item{
+    display: flex;
+    padding:10px 7px 10px 50px;
+}
+.course-list-item:hover{
+    background-color: rgb(240,240,240);
+}
+.course-list-item i{
+    font-size: 24px;
+    margin-left: 10px;
+}
+.text-justify{
+    text-align: justify;
+}
+.section1{
+    background-image: url(../images/header/header-bg.png);
+    background-size: cover;
+}
+.max-width-sm-500{
+    max-width: 490px;
+}
+/* courses */
+.course-shadow{
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;;
+}
+/* FAQ */
+.accordion-button:focus ,.accordion-button{
+    /* outline: none; */
+    box-shadow: none ;
+    background-color: #fff !important;
+}
+/* services */
+.service-box{
+    transition: all 0.3s;
+}
+.service-box.border-primary:hover{
+    background-color: #0d6efd;
+}
+.service-box.border-warning:hover{
+    background-color: #ffc107;
+}
+.service-box.border-success:hover{
+    background-color: #198754;
+}
+.service-box:hover{
+    color: #fff;
+}
+.service-box:hover a{
+    color: #fff !important;
+}
+/* pricing */
+.pricing-box{
+    transition: all 0.3s;
+}
+.pricing-box:hover{
+    transform: scale(1.05);
+}
+/* footer */
+footer{
+    background-color: #f2f5fc;
+}
